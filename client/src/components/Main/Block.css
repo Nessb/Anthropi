@@ -1,0 +1,13 @@
+
+#block {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 50px 19px;
+    text-align: center;
+    background-image: linear-gradient(120deg, #8ec5fc 0%, #cfd9df 80%) !important; 
+}
+
+#block h1 {
+    color: white !important;
+}

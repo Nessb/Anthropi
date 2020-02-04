@@ -1,0 +1,14 @@
+#presentation {
+    /* background-color: #9BB6E5 !important; */
+    background-color: #f5f7fb !important;
+    font-size: 16px;
+}
+h1{
+  font-size: 50px !important;
+  font-weight: 500 !important;
+  color: #A0B6E1;
+}
+.card{
+  background-color: #f5f7fb !important;
+  border: none !important;
+}

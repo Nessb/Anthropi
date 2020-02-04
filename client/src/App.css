@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:700|Roboto&display=swap');
+@font-face {
+  font-family:'SF Pro Text 300';
+  src:url("http://www.apple.com/wss/fonts/SF-Pro-Text/v1/sf-pro-text_light.eot");
+}
+.App {
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'SF Pro Text 300','Montserrat', sans-serif;
+  color: #A0B6E1;
+}
+body , p , ul, li {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  font-weight: 100 !important;
+
+}
+.App-footer {
+  background-color: #323232 !important;
+  background: none;
+  padding: 0em;
+}
+.App-footer > footer {
+  background: none;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.mb-6 {
+  margin-bottom: 20% !important; 
+}
+.mb-n6 {
+  margin-bottom: -20% !important;
+}
+
+.mt-6 {
+  margin-top: 6rem !important; 
+}
+.mt-7 {
+  margin-top: 8rem !important; 
+}
+.mt-8 {
+  margin-top: 10rem !important; 
+}
+
+.mr-n6 {
+  margin-right: -5rem !important;
+}
+.mt-n6 {
+  margin-top: -20% !important;
+}
+.mt-n7 {
+  margin-top: -26rem !important;
+}
+.mt-n8 {
+  margin-top: -35rem !important;
+}
+.mt-n9 {
+  margin-top: -66% !important;
+}
+
+/* .ml-6 {
+  margin-left:;
+} */
+.mr-6 {
+  margin-right: 8rem;
+}

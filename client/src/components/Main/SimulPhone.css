@@ -1,0 +1,105 @@
+@media (max-width: 767px) { 
+    .card{
+        display: block !important;
+    }
+    .simulphone {
+      font-size: 43px !important;
+    }
+    #cardsimulphone1{
+      margin-top: -0em !important;
+    }
+    #cardsimulphone2{
+      margin-top: -0em !important;
+    }
+    #cardsimulphone3{
+      margin-top: -0em !important;
+    }
+    #cardsimulphone4{
+      margin-top: -0em !important;
+    }
+}
+@media (max-width: 900px) { 
+    .card{
+        display: block !important;
+    }
+    .simulphone {
+      font-size: 43px !important;
+    }
+    #cardsimulphone1{
+      margin-top: -0em !important;
+    }
+    #cardsimulphone2{
+      margin-top: -0em !important;
+    }
+    #cardsimulphone3{
+      margin-top: -0em !important;
+    }
+    #cardsimulphone4{
+      margin-top: -0em !important;
+    }
+    
+}
+@media (min-width: 1024px) and (max-width: 1370px) { 
+  #cardsimulphone1{
+    margin-top: -23.5em !important;
+    margin-left: -6em !important;
+    margin-right: 9em !important;
+  }
+  #cardsimulphone2{
+    margin-top: -23em !important;
+    margin-right: -6em !important;
+    margin-left: 9em !important;
+  }
+  #cardsimulphone3{
+    margin-top: -19em !important;
+    margin-left: -6em !important;
+    margin-right: 9em !important;
+  }
+  #cardsimulphone4{
+    margin-top: -20.5em !important;
+    margin-right: -6em !important;
+    margin-left: 9em !important;
+  }
+  .card1{
+    height: 10em !important;
+  }
+  }
+
+.card1{
+  min-height: 10em;
+}
+#cardsimulphone1{
+  margin-top: -23em;
+}
+#cardsimulphone2{
+  margin-top: -22em;
+  margin-left: -0em;
+}
+#cardsimulphone3{
+  margin-top: -18em;
+}
+#cardsimulphone4{
+  margin-top: -21em;
+  margin-left: -0em;
+}
+
+li {
+  list-style: none;
+  line-height: 1.3em;
+  color: #212529;
+}
+
+#simulphone{
+    font-size: 1.2rem;
+    height: auto !important;
+    line-height: 1 !important;
+    background-color: #f5f7fb;
+}
+
+h1{
+    font-size: 50px !important;
+    font-weight: 500 !important;
+  }
+/* .texte{
+  font-size: 1.1em;
+} */

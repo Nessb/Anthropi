@@ -1,0 +1,28 @@
+#footer{
+    background-color: #323232 !important;
+    background: none !important;
+    padding: 0em;
+}
+.image_footer{
+    width: 10%;
+    height: auto;
+    background-color: #323232 !important;
+    border: #323232 !important;
+    margin-right: 2em;
+}
+#toTop{
+    margin-left: 55em;
+    width: 10%;
+    height: auto;
+}
+
+.twitter{
+    color: #55ADEE;
+}
+.linkedin{
+    color: #0082CA;
+}
+#modal > p, ul{
+    color: black;
+    font-size: 1.2rem;
+}

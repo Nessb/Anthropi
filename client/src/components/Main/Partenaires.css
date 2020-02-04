@@ -1,0 +1,15 @@
+#partenaire {
+    max-width: 97%;
+    margin-left: 1%;
+}
+
+@media (max-width: 700px) { 
+    #partenaire {
+        max-width: 95%;
+        margin-left: 0% !important;
+    }
+    settings {
+        .slidesToShow: 4;
+
+    }
+  }

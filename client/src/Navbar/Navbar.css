@@ -1,0 +1,40 @@
+.MDBView{
+    min-width: 100%;
+    background-attachment: fixed;
+}
+.degrade{
+    background-image: linear-gradient(120deg, #cfd9df 0%, #8ec5fc 100%) !important; 
+}
+.navbar {
+    font-size: 20px;
+}
+.gray-blue-gradient {
+    background-image: linear-gradient(120deg, #cfd9df 0%, #8ec5fc 100%) !important;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+
+.anthropi-logo {
+    height: 30vh !important;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 700px) { 
+    .anthropi-logo {
+        height: 25vh !important;
+        margin-top: 50% !important;
+    }
+  }
+@media (min-width: 720px) and (max-width: 1024px) { 
+    .anthropi-logo {
+        height: 25vh !important;
+        margin-top: 30% !important;
+    }
+  }
