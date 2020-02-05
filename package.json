@@ -21,10 +21,11 @@
     "sanitize.css": "^11.0.0",
     "slick-carousel": "^1.8.1"
   },
-
+  "proxy": "http://localhost:3002",
   "scripts": {
+    "server": "node index.js",
     "start": "react-scripts start",
-    "start-with-server": "concurrently \"react-scripts start\" \"PORT=3002 nodemon ./server/index.js\"",
+    "dev": "concurrently \"npm run start\" \"nodemon npm run server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
