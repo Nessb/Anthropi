@@ -10,12 +10,12 @@ import {
 // Components
 import App from './App'
 import Admin from './Admin/Admin'
-import Loading from './components/Loading/Loading.js.js'
-import Presentation from './components/Main/Presentation.js.js'
-import SimulPhone from './components/Main/SimulPhone.js.js'
-import Formations from './components/Main/Formations.js.js'
-import Formateurs from './components/Main/Formateurs.js.js'
-import Contact from './components/Contact/Contact.js.js'
+import Loading from './components/Loading/Loading.js'
+import Presentation from './components/Main/Presentation.js'
+import SimulPhone from './components/Main/SimulPhone.js'
+import Formations from './components/Main/Formations.js'
+import Formateurs from './components/Main/Formateurs.js'
+import Contact from './components/Contact/Contact.js'
 
 // CSS
 import './index.css'
