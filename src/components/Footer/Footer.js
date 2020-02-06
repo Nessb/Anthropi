@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Image from 'react-bootstrap/Image'
 import { MDBContainer, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter, MDBIcon } from 'mdbreact'
 import './Footer.css'
+import { genericHashLink } from 'react-router-hash-link'
 
 class Footer extends Component {
   state={
@@ -259,6 +260,7 @@ class Footer extends Component {
           <MDBBtn color="danger" onClick={this.toggle(5)}>Close</MDBBtn>
         </MDBModalFooter>
       </MDBModal>
+      <MDBBtn id='btn-login'><a href='/admin' target='_blank'>Se connecter</a></MDBBtn>
     </MDBContainer>
         </div>
 

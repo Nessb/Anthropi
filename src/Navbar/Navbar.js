@@ -49,9 +49,6 @@ class Navbar extends React.Component {
               <MDBNavItem >
                 <MyHashLink className='text-white' to='#contact'>Contact</MyHashLink>
               </MDBNavItem>
-              <MDBNavItem active>
-                <MyHashLink className='text-white' to='/admin' target='_blank'>Se connecter</MyHashLink>
-              </MDBNavItem>
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBNavbar>
