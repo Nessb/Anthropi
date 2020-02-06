@@ -24,12 +24,13 @@ const Contact = props => {
               <MDBIcon icon='map-marker-alt' />
             </MDBBtn>
             <p>{props.details.adresse.content}</p>
-            <p className='mb-md-0'>{props.details.cp.content} ,{props.details.ville.content}</p>
+            <p className='mb-md-0'>{props.details.cp.content} {props.details.ville.content}</p>
           </MDBCol>
           <MDBCol className='infos-contact'>
             <MDBBtn tag='a' className='gris-bleu' >
               <MDBIcon icon='phone' />
             </MDBBtn>
+            <p>{props.details.nom.content}</p>
             <p><a id='num' href={`tel:${props.details.tel.content}`} >{props.details.tel.content}</a></p>
             <p className='mb-md-0'>{props.details.horaire.content}</p>
             <br />
