@@ -24,11 +24,6 @@ class Formateurs extends Component {
                 Some quick example text to build on the card title and make
                 up the bulk of the card&apos;s content.
                 </MDBCardText>
-                <div style={{ fontSize: '2.5rem' }}>
-                  <i class='fab fa-facebook-square fa-fw blue-text' />
-                  <i class='fab fa-twitter-square fa-fw blue-text' />
-                  <i class='fab fa-linkedin fa-fw blue-text' />
-                </div>
               </MDBCardBody>
             </MDBCard>
           </Fade>
@@ -43,11 +38,6 @@ class Formateurs extends Component {
                 Some quick example text to build on the card title and make
                 up the bulk of the card&apos;s content.
                 </MDBCardText>
-                <div style={{ fontSize: '2.5rem' }}>
-                  <i class='fab fa-facebook-square fa-fw blue-text' />
-                  <i class='fab fa-twitter-square fa-fw blue-text' />
-                  <i class='fab fa-linkedin fa-fw blue-text' />
-                </div>
               </MDBCardBody>
             </MDBCard>
           </Fade>
@@ -62,11 +52,6 @@ class Formateurs extends Component {
                 Some quick example text to build on the card title and make
                 up the bulk of the card&apos;s content.
                 </MDBCardText>
-                <div style={{ fontSize: '2.5rem' }}>
-                  <i class='fab fa-facebook-square fa-fw blue-text' />
-                  <i class='fab fa-twitter-square fa-fw blue-text' />
-                  <i class='fab fa-linkedin fa-fw blue-text' />
-                </div>
               </MDBCardBody>
             </MDBCard>
           </Fade>
@@ -81,11 +66,6 @@ class Formateurs extends Component {
                 Some quick example text to build on the card title and make
                 up the bulk of the card&apos;s content.
                 </MDBCardText>
-                <div style={{ fontSize: '2.5rem' }}>
-                  <i class='fab fa-facebook-square fa-fw blue-text' />
-                  <i class='fab fa-twitter-square fa-fw blue-text' />
-                  <i class='fab fa-linkedin fa-fw blue-text' />
-                </div>
               </MDBCardBody>
             </MDBCard>
           </Fade>
@@ -100,11 +80,6 @@ class Formateurs extends Component {
                 Some quick example text to build on the card title and make
                 up the bulk of the card&apos;s content.
                 </MDBCardText>
-                <div style={{ fontSize: '2.5rem' }}>
-                  <i class='fab fa-facebook-square fa-fw blue-text' />
-                  <i class='fab fa-twitter-square fa-fw blue-text' />
-                  <i class='fab fa-linkedin fa-fw blue-text' />
-                </div>
               </MDBCardBody>
             </MDBCard>
           </Fade>
@@ -119,11 +94,6 @@ class Formateurs extends Component {
                 Some quick example text to build on the card title and make
                 up the bulk of the card&apos;s content.
                 </MDBCardText>
-                <div style={{ fontSize: '2.5rem' }}>
-                  <i class='fab fa-facebook-square fa-fw blue-text' />
-                  <i class='fab fa-twitter-square fa-fw blue-text' />
-                  <i class='fab fa-linkedin fa-fw blue-text' />
-                </div>
               </MDBCardBody>
             </MDBCard>
           </Fade>
@@ -138,11 +108,6 @@ class Formateurs extends Component {
                 Some quick example text to build on the card title and make
                 up the bulk of the card&apos;s content.
                 </MDBCardText>
-                <div style={{ fontSize: '2.5rem' }}>
-                  <i class='fab fa-facebook-square fa-fw blue-text' />
-                  <i class='fab fa-twitter-square fa-fw blue-text' />
-                  <i class='fab fa-linkedin fa-fw blue-text' />
-                </div>
               </MDBCardBody>
             </MDBCard>
           </Fade>
