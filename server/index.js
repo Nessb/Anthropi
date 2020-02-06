@@ -30,7 +30,7 @@ router.post('/send', (req, res, next) => {
 
   var mail = {
     from: 'developnexx@gmail.com',
-    to: `${email}`, // Change to email address that you want to receive messages on
+    to: `${email}`,
     subject: 'Plan de formation d\'Anthropi',
     text: content,
     attachments: {

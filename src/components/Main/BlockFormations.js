@@ -37,7 +37,7 @@ class BlockFormations extends React.Component {
     return (
       <Container className='mb-5 mt-5' id='blockformation'>
         <Flip top duration={1500} delay={1500}>
-          <h4>Entrez votre mail dans le formulaire ci-dessous, et vous recevrez la plaquette des périodes de formations en pièce jointe.</h4>
+          <h4>Entrez votre mail dans le formulaire ci-dessous, et vous recevrez le catalogue de formation en pièce jointe.</h4>
           {/* <Fade duration={500} delay={500}> */}
           <form className='contact-form mt-5' onSubmit={this.handleSubmit.bind(this)} method='POST'>
             <Row>

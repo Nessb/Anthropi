@@ -9,7 +9,7 @@ class Formateurs extends Component {
       <section id='formateurs'>
         <h1 className='mb-5'>
           <Fade left cascade delay={1000}>
-                Nos Formateurs
+                Notre Équipe
           </Fade>
         </h1>
         <MDBContainer id='formateurscard'>

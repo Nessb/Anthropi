@@ -25,7 +25,7 @@ class Navbar extends React.Component {
     return (
 
       <header id='navbar'>
-        <MDBNavbar color='gray-blue-gradient' fixed='top' dark expand='lg' scrollingNavbarOffset={800} transparent>
+        <MDBNavbar color='gray-blue-gradient' fixed='top' dark expand='lg' scrollingNavbarOffset={800} >
           <MDBNavbarBrand>
             <MyHashLink to='#navbar'>
               <img src={require('../img/logo.png')} height='50' alt='logo anthropi' />
@@ -44,7 +44,7 @@ class Navbar extends React.Component {
                 <MyHashLink className='text-white' to='#formation'>Formation</MyHashLink>
               </MDBNavItem>
               <MDBNavItem>
-                <MyHashLink className='text-white' to='#formateurs'>Formateurs</MyHashLink>
+                <MyHashLink className='text-white' to='#formateurs'>Notre équipe</MyHashLink>
               </MDBNavItem>
               <MDBNavItem >
                 <MyHashLink className='text-white' to='#contact'>Contact</MyHashLink>
