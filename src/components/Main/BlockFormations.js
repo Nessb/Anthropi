@@ -9,6 +9,7 @@ class BlockFormations extends React.Component {
     super(props)
     this.state = {
       name: '',
+      tel: '',
       email: ''
     }
   }
@@ -30,7 +31,7 @@ class BlockFormations extends React.Component {
   }
 
   resetForm () {
-    this.setState({ name: '', email: '' })
+    this.setState({ name: '', tel: '', email: '' })
   }
 
   render () {
@@ -38,15 +39,18 @@ class BlockFormations extends React.Component {
       <Container className='mb-5 mt-5' id='blockformation'>
         <Flip top duration={1500} delay={1500}>
           <h4>Entrez votre mail dans le formulaire ci-dessous, et vous recevrez le catalogue de formation en pièce jointe.</h4>
-          {/* <Fade duration={500} delay={500}> */}
           <form className='contact-form mt-5' onSubmit={this.handleSubmit.bind(this)} method='POST'>
             <Row>
               <Col className='flex-center mb-4'>
                 <div className='card'>
                   <div className='card-body'>
                     <div className='md-form  mt-0'>
-                      <input type='text' id='name' className='form-control' placeholder='Nom' value={this.state.name} onChange={this.onNameChange.bind(this)} required />
+                      <input type='text' id='name' className='form-control' placeholder='Prénom' value={this.state.name} onChange={this.onNameChange.bind(this)} required />
                       <label htmlFor='name' />
+                    </div>
+                    <div className='md-form'>
+                      <input type='tel' id='tel' className='form-control' placeholder='Numéro de téléphone' value={this.state.tel} onChange={this.onTelChange.bind(this)} />
+                      <label htmlFor='tel' />
                     </div>
                     <div className='md-form'>
                       <input type='email' id='email' className='form-control' placeholder='Email' value={this.state.email} onChange={this.onEmailChange.bind(this)} required />
@@ -58,7 +62,6 @@ class BlockFormations extends React.Component {
               </Col>
             </Row>
           </form>
-          {/* </Fade> */}
         </Flip>
       </Container>
 
@@ -67,6 +70,10 @@ class BlockFormations extends React.Component {
 
   onNameChange (event) {
     this.setState({ name: event.target.value })
+  }
+
+  onTelChange (event) {
+    this.setState({ tel: event.target.value })
   }
 
   onEmailChange (event) {

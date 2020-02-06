@@ -25,6 +25,7 @@ transporter.verify((error, success) => {
 
 router.post('/send', (req, res, next) => {
   var name = req.body.name
+  var tel = req.body.tel
   var email = req.body.email
   var content = 'Vous avez rempli le formulaire de contact d\'Anthropi vous pouvez trouver en pièce jointe le plan de formation'
 
@@ -34,8 +35,8 @@ router.post('/send', (req, res, next) => {
     subject: 'Plan de formation d\'Anthropi',
     text: content,
     attachments: {
-      filename: 'CV.pdf',
-      path: './CV.pdf'
+      filename: 'Catalogue_de_formation.pdf',
+      path: './Catalogue_de_formation.pdf'
     }
   }
 
@@ -53,7 +54,7 @@ router.post('/send', (req, res, next) => {
         from: 'Message auto',
         to: '<developnexx@gmail.com>',
         subject: 'Email bien envoyée',
-        text: `Email envoyé à :\n\n Nom: ${name}\n Email: ${email}`
+        text: `Email envoyé à :\n\n Nom: ${name}\n Tel: ${tel}\n Email: ${email}`
       }, function (error, info) {
         if (error) {
           console.log(error)
