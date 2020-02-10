@@ -38,7 +38,7 @@ class BlockFormations extends React.Component {
     return (
       <Container className='mb-5 mt-5' id='blockformation'>
         <Flip top duration={1500} delay={1500}>
-          <h4>Entrez votre mail dans le formulaire ci-dessous, et vous recevrez le catalogue de formation en pièce jointe.</h4>
+          <h4>Entrez votre email dans le formulaire ci-dessous, et vous recevrez le catalogue de formation en pièce jointe</h4>
           <form className='contact-form mt-5' onSubmit={this.handleSubmit.bind(this)} method='POST'>
             <Row>
               <Col className='flex-center mb-4'>
@@ -56,7 +56,10 @@ class BlockFormations extends React.Component {
                       <input type='email' id='email' className='form-control' placeholder='Email' value={this.state.email} onChange={this.onEmailChange.bind(this)} required />
                       <label htmlFor='email' />
                     </div>
-                    <button type='submit' id='btncolor' className='btn btn-md btn-block ml-0 mb-0 text-white'>Envoyez</button>
+                    <button type='submit' id='btncolor' className='btn btn-md btn-block ml-0 mb-0 text-white'>Envoyez</button> 
+                    <p style={{ fontSize: '0.5em' }}>
+                      Aucun abonnement à une newsletter.
+                    </p>
                   </div>
                 </div>
               </Col>
