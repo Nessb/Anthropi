@@ -43,7 +43,7 @@ class References extends Component {
             <Image className='imagereferences' src={require('../../img/Références/wresize/SAMU 40.jpeg')} />
           </div>
           <div>
-            <Image className='imagereferences' src={require('../../img/Références/SDIS 56.png')}  />
+            <Image className='imagereferences' src={require('../../img/Références/SDIS 56.png')} />
           </div>
           <div>
             <Image className='imagereferences' src={require('../../img/Références/SAMU 80.png')} />

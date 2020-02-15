@@ -8,7 +8,7 @@ import BlockFormations from './components/Main/BlockFormations.js'
 import Partenaires from './components/Main/Partenaires.js'
 import Formations from './components/Main/Formations.js'
 import Avis from './components/Main/Avis.js'
-// import References from './components/Main/References.js'
+import References from './components/Main/References.js'
 import Formateurs from './components/Main/Formateurs.js'
 import Contact from './components/Contact/Contact.js'
 import Footer from './components/Footer/Footer.js'
@@ -32,7 +32,7 @@ const App = props => {
         <BlockFormations />
         <Formations />
         <Avis />
-        {/* <References /> */}
+        <References />
         <Formateurs />
         <Contact details={props.data.contact} />
       </header>

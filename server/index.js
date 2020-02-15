@@ -1,8 +1,11 @@
 var express = require('express')
 var router = express.Router()
 var nodemailer = require('nodemailer')
+const path = require('path')
 var cors = require('cors')
 const creds = require('./config')
+
+const PORT = process.env.PORT || 3002
 
 var transport = {
   host: 'smtp.gmail.com',
@@ -67,7 +70,10 @@ router.post('/send', (req, res, next) => {
 })
 
 const app = express()
+app.use(express.static(path.join(__dirname, '../public')))
 app.use(cors())
 app.use(express.json())
 app.use('/', router)
-app.listen(3002)
+app.listen(PORT)
+
+// "dev": "concurrently \"npm run start\" \"npm run server\"",

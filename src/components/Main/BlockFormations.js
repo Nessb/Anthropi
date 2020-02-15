@@ -56,7 +56,7 @@ class BlockFormations extends React.Component {
                       <input type='email' id='email' className='form-control' placeholder='Email' value={this.state.email} onChange={this.onEmailChange.bind(this)} required />
                       <label htmlFor='email' />
                     </div>
-                    <button type='submit' id='btncolor' className='btn btn-md btn-block ml-0 mb-0 text-white'>Envoyez</button> 
+                    <button type='submit' id='btncolor' className='btn btn-md btn-block ml-0 mb-0 text-white'>Envoyez</button>
                     <p style={{ fontSize: '0.5em' }}>
                       Aucun abonnement à une newsletter.
                     </p>

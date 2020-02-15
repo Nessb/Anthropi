@@ -264,7 +264,7 @@ class Footer extends Component {
         </div>
 
         <div class='footer-copyright text-center py-3'>© {new Date().getFullYear()} Copyright:
-          <a href='https://nessimbelhadj.com/' target='_blank'> Belhadj Nessim</a>
+          <a href='https://nessimbelhadj.com/' rel='noopener noreferrer' target='_blank'> Belhadj Nessim</a>
           <p>Tous droits réservés</p>
         </div>
 
