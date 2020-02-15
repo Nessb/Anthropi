@@ -70,7 +70,7 @@ router.post('/send', (req, res, next) => {
 })
 
 const app = express()
-app.use(express.static(path.join(__dirname, '../public')))
+app.use(express.static(path.join(__dirname, 'src')))
 app.use(cors())
 app.use(express.json())
 app.use('/', router)
