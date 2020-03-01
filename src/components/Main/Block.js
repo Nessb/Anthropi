@@ -10,7 +10,7 @@ class Block extends Component {
       <Flip top duration={1500} delay={1500}>
         <Container className='mb-5 mt-5' id='block'>
           <h1>Pour plus d'information sur les périodes de formations, contactez nous.</h1>
-          <MDBBtn href='#contact' color='white'>Contact</MDBBtn>
+          <MDBBtn href='#blockformation' color='white'>Contact</MDBBtn>
         </Container>
       </Flip>
     )

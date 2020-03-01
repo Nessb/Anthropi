@@ -70,10 +70,8 @@ router.post('/send', (req, res, next) => {
 })
 
 const app = express()
-app.use(express.static(path.join(__dirname, 'src')))
+app.use(express.static(path.join(__dirname, 'build')))
 app.use(cors())
 app.use(express.json())
 app.use('/', router)
 app.listen(PORT)
-
-// "dev": "concurrently \"npm run start\" \"npm run server\"",
