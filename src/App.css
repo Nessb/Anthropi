@@ -10,6 +10,10 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'SF Pro Text 300','Montserrat', sans-serif;
   color: #A0B6E1;
 }
+h1 {
+  font-size: 40px !important;
+  font-weight: 500 !important;
+}
 body , p , ul, li {
   font-family: 'Roboto', sans-serif;
   font-family: 'Lato', sans-serif;

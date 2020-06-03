@@ -35,7 +35,7 @@ class Navbar extends React.Component {
           <MDBCollapse isOpen={this.state.collapse} navbar>
             <MDBNavbarNav right>
               <MDBNavItem>
-                <MyHashLink className='text-white' to='#presentation'>Presentation</MyHashLink>
+                <MyHashLink className='text-white' to='#presentation'>Présentation</MyHashLink>
               </MDBNavItem>
               <MDBNavItem >
                 <MyHashLink className='text-white' to='#simulphone'>SimulPhone®</MyHashLink>

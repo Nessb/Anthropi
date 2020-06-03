@@ -24,19 +24,19 @@ class Partenaires extends Component {
           </Fade>
         </h2>
         <Slider {...settings}>
-          <div className='pxref'>
+          <div>
             <Image src={require('../../img/Partenaires/banque.jpg')} fluid />
           </div>
-          <div className='pxref'>
+          <div>
             <Image src={require('../../img/Partenaires/la-french-tech.png')} fluid />
           </div>
-          <div className='pxref'>
+          <div>
             <Image src={require('../../img/Partenaires/initiative-cote-dor.png')} fluid />
           </div>
-          <div className='pxref'>
+          <div>
             <Image src={require('../../img/Partenaires/laureat-bourgogne.png')} fluid />
           </div>
-          <div className='pxref'>
+          <div>
             <Image src={require('../../img/Partenaires/bfc.png')} fluid />
           </div>
         </Slider>

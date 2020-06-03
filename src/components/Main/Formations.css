@@ -37,7 +37,7 @@
   } */
 @media (min-width: 1024px) and (max-width: 1400px) { 
     .card_formation {
-        top: -90%;
+        top: -90% !important;
         height: 50%;  
     }
   }

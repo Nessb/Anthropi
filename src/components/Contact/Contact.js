@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade'
 const Contact = props => {
   return (
     <section id='contact' className='my-5 heavy-rain-gradient'>
-      <h2 className='h1-responsive font-weight-bold text-center my-5'>
+      <h2 className='h1-responsive text-center my-5'>
         <Fade left cascade delay={1000}>
             Contact
         </Fade>

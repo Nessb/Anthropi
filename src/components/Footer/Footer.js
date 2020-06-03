@@ -24,15 +24,17 @@ class Footer extends Component {
           <div className='row'>
             <div className='col-md-12 py-5'>
               <div className='mb-5 flex-center'>
-                <Image src={require('../../img/logo-OGDPC-fr.png')} className='image_footer' />
+                <Image src={require('../../img/logo-OGDPC-fr.png')} id='ogdpc' />
                 <br />
                 <a href='https://twitter.com/anthropi_?lang=fr'><MDBIcon className='twitter px-2' fab icon="twitter fa-3x" /></a>
                 <br />
                 <a href='https://www.linkedin.com/company/anthropi/'><MDBIcon className='linkedin px-4' fab icon="linkedin-in fa-3x" /></a>
-                <Image src={require('../../img/Picto_datadocke.jpg')} className='image_footer' />
+                <Image src={require('../../img/Picto_datadocke.jpg')} id='datadocke' />
               </div>
             </div>
           </div>
+
+          {/* Modal mentions légales */}
           <MDBContainer>
       <MDBBtn color="dark" onClick={this.toggle(5)}>Mentions Légales</MDBBtn>
       <MDBModal isOpen={this.state.modal5} toggle={this.toggle(5)} size="fluid">

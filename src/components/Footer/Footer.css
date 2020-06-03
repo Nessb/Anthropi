@@ -3,9 +3,16 @@
     background: none !important;
     padding: 0em;
 }
-.image_footer{
-    width: 10%;
-    height: auto;
+#ogdpc{
+    width: 7em;
+    height: 4em;
+    background-color: #323232 !important;
+    border: #323232 !important;
+    margin-right: 2em;
+}
+#datadocke{
+    width: 4em;
+    height: 4em;
     background-color: #323232 !important;
     border: #323232 !important;
     margin-right: 2em;

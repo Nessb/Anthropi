@@ -59,7 +59,7 @@ class Formations extends Component {
             </Fade>
           </MDBCol>
         </MDBRow>
-        <MDBRow>
+        <MDBRow className='mb-5'>
           <MDBCol xl='6' lg='6' md='12' sm='12' xs='12'>
 
             <Slider className='card_formation'
@@ -149,8 +149,6 @@ class Formations extends Component {
               </div>
             </Slider>
           </MDBCol>
-          {/* <button aria-hidden='true' className='carousel-control-prev-icon' />
-            <button className='slickNext' /> */}
         </MDBRow>
       </MDBContainer>
     )
